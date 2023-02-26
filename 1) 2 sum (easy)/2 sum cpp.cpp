@@ -1,6 +1,6 @@
 C++
 
-1) Brute Force
+1) Brute Force [O(n^2)]
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -20,9 +20,9 @@ public:
         }
         return ret;
     }
-}; //O(n^2)
+};
 
-2) Hash Table
+2) Hash Table [O(n)]
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -43,4 +43,4 @@ public:
         }
         return ret;
     }
-}; //O(n)
+};
